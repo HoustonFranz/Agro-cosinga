@@ -9,7 +9,7 @@
 
   async function loadProducts() {
     try {
-      const res = await fetch('/data/products.json');
+      const res = await fetch('./data/products.json');
       if (!res.ok) throw new Error('No se pudo cargar products.json');
       return await res.json();
     } catch (err) {
