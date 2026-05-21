@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fertilizante NPK 20-20-20",
+    "categoria": "fertilizantes",
+    "descripcion": "Fórmula balanceada de nitrógeno, fósforo y potasio para todo tipo de cultivos.",
+    "destacado": true,
+    "tag": "Más vendido",
+    "imagen": "assets/images/fertilizer-bag.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Urea Granulada 46%",
+    "categoria": "fertilizantes",
+    "descripcion": "Alto contenido de nitrógeno para impulsar el crecimiento vegetativo.",
+    "destacado": true,
+    "tag": "Recomendado",
+    "imagen": "assets/images/fertilizer-bag.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Insecticida Cipermetrina 25%",
+    "categoria": "insecticidas",
+    "descripcion": "Control efectivo de plagas en cultivos de café, cacao y cítricos.",
+    "destacado": true,
+    "tag": "Top",
+    "imagen": "assets/images/fertilizer-bag.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Insecticida Clorpirifos 48 EC",
+    "categoria": "insecticidas",
+    "descripcion": "Acción de contacto e ingestión contra plagas masticadoras.",
+    "destacado": false,
+    "tag": "",
+    "imagen_placeholder": "Insertar imagen insecticida clorpirifos"
+  },
+  {
+    "id": 5,
+    "nombre": "Fungicida Mancozeb 80%",
+    "categoria": "fungicidas",
+    "descripcion": "Prevención y control de enfermedades fúngicas en hortalizas y frutales.",
+    "destacado": true,
+    "tag": "",
+    "imagen": "assets/images/fertilizer-bag.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Fungicida Sulfato de Cobre",
+    "categoria": "fungicidas",
+    "descripcion": "Excelente acción preventiva contra mildiu, roya y antracnosis.",
+    "destacado": false,
+    "tag": "",
+    "imagen_placeholder": "Insertar imagen fungicida cobre"
+  },
+  {
+    "id": 7,
+    "nombre": "Abono Orgánico Compostado",
+    "categoria": "abonos",
+    "descripcion": "Mejora la estructura del suelo y aporta materia orgánica de alta calidad.",
+    "destacado": true,
+    "tag": "Orgánico",
+    "imagen": "assets/images/fertilizer-bag.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Guano de Isla",
+    "categoria": "abonos",
+    "descripcion": "Fertilizante natural rico en nitrógeno, fósforo y micronutrientes.",
+    "destacado": false,
+    "tag": "Natural",
+    "imagen_placeholder": "Insertar imagen guano de isla"
+  },
+  {
+    "id": 9,
+    "nombre": "Biofertilizante Foliar",
+    "categoria": "fertilizantes",
+    "descripcion": "Aplicación foliar para corregir deficiencias nutricionales rápidamente.",
+    "destacado": false,
+    "tag": "",
+    "imagen_placeholder": "Insertar imagen biofertilizante foliar"
+  }
+]
