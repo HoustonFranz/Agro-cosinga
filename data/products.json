@@ -1,83 +1,290 @@
 [
   {
     "id": 1,
-    "nombre": "Fertilizante NPK 20-20-20",
-    "categoria": "fertilizantes",
-    "descripcion": "Fórmula balanceada de nitrógeno, fósforo y potasio para todo tipo de cultivos.",
+    "nombre": "Bazuka",
+    "categoria": "herbicidas",
+    "descripcion": "Herbicida de acción rápida para el control eficaz de malezas persistentes.",
     "destacado": true,
-    "tag": "Más vendido",
-    "imagen": "assets/images/fertilizer-bag.png"
+    "tag": "Herbicidas",
+    "imagen": ""
   },
   {
     "id": 2,
-    "nombre": "Urea Granulada 46%",
-    "categoria": "fertilizantes",
-    "descripcion": "Alto contenido de nitrógeno para impulsar el crecimiento vegetativo.",
-    "destacado": true,
-    "tag": "Recomendado",
-    "imagen": "assets/images/fertilizer-bag.png"
+    "nombre": "Herbosato",
+    "categoria": "herbicidas",
+    "descripcion": "Potente herbicida sistémico diseñado para la eliminación de malezas de hoja ancha y angosta.",
+    "destacado": false,
+    "tag": "Herbicidas",
+    "imagen": ""
   },
   {
     "id": 3,
-    "nombre": "Insecticida Cipermetrina 25%",
-    "categoria": "insecticidas",
-    "descripcion": "Control efectivo de plagas en cultivos de café, cacao y cítricos.",
-    "destacado": true,
-    "tag": "Top",
-    "imagen": "assets/images/fertilizer-bag.png"
+    "nombre": "Glyphogan",
+    "categoria": "herbicidas",
+    "descripcion": "Herbicida sistémico no selectivo ideal para la limpieza y preparación del terreno de cultivo.",
+    "destacado": false,
+    "tag": "Herbicidas",
+    "imagen": ""
   },
   {
     "id": 4,
-    "nombre": "Insecticida Clorpirifos 48 EC",
-    "categoria": "insecticidas",
-    "descripcion": "Acción de contacto e ingestión contra plagas masticadoras.",
-    "destacado": false,
-    "tag": "",
-    "imagen_placeholder": "Insertar imagen insecticida clorpirifos"
+    "nombre": "Sanfosato",
+    "categoria": "herbicidas",
+    "descripcion": "Solución herbicida post-emergente para el control total de malezas gramíneas.",
+    "destacado": true,
+    "tag": "Herbicidas",
+    "imagen": ""
   },
   {
     "id": 5,
-    "nombre": "Fungicida Mancozeb 80%",
-    "categoria": "fungicidas",
-    "descripcion": "Prevención y control de enfermedades fúngicas en hortalizas y frutales.",
-    "destacado": true,
-    "tag": "",
-    "imagen": "assets/images/fertilizer-bag.png"
+    "nombre": "Betabaytroide",
+    "categoria": "insecticidas",
+    "descripcion": "Insecticida de amplio espectro con un fuerte efecto de derribe contra plagas masticadoras.",
+    "destacado": false,
+    "tag": "Insecticidas",
+    "imagen": ""
   },
   {
     "id": 6,
-    "nombre": "Fungicida Sulfato de Cobre",
-    "categoria": "fungicidas",
-    "descripcion": "Excelente acción preventiva contra mildiu, roya y antracnosis.",
+    "nombre": "Cypermex",
+    "categoria": "insecticidas",
+    "descripcion": "Insecticida piretroide eficaz para el control de larvas y pulgones en diversos cultivos.",
     "destacado": false,
-    "tag": "",
-    "imagen_placeholder": "Insertar imagen fungicida cobre"
+    "tag": "Insecticidas",
+    "imagen": ""
   },
   {
     "id": 7,
-    "nombre": "Abono Orgánico Compostado",
-    "categoria": "abonos",
-    "descripcion": "Mejora la estructura del suelo y aporta materia orgánica de alta calidad.",
-    "destacado": true,
-    "tag": "Orgánico",
-    "imagen": "assets/images/fertilizer-bag.png"
+    "nombre": "Radica",
+    "categoria": "insecticidas",
+    "descripcion": "Fórmula insecticida diseñada para combatir plagas complejas protegiendo el rendimiento del cultivo.",
+    "destacado": false,
+    "tag": "Insecticidas",
+    "imagen": ""
   },
   {
     "id": 8,
-    "nombre": "Guano de Isla",
-    "categoria": "abonos",
-    "descripcion": "Fertilizante natural rico en nitrógeno, fósforo y micronutrientes.",
+    "nombre": "Campal",
+    "categoria": "insecticidas",
+    "descripcion": "Insecticida de excelente persistencia para el control preventivo y curativo de insectos dañinos.",
     "destacado": false,
-    "tag": "Natural",
-    "imagen_placeholder": "Insertar imagen guano de isla"
+    "tag": "Insecticidas",
+    "imagen": ""
   },
   {
     "id": 9,
-    "nombre": "Biofertilizante Foliar",
-    "categoria": "fertilizantes",
-    "descripcion": "Aplicación foliar para corregir deficiencias nutricionales rápidamente.",
+    "nombre": "Miterra",
+    "categoria": "insecticidas",
+    "descripcion": "Protección insecticida eficaz contra plagas del suelo y del follaje en etapas críticas.",
     "destacado": false,
-    "tag": "",
-    "imagen_placeholder": "Insertar imagen biofertilizante foliar"
+    "tag": "Insecticidas",
+    "imagen": ""
+  },
+  {
+    "id": 10,
+    "nombre": "Aliette",
+    "categoria": "fungicidas",
+    "descripcion": "Fungicida sistémico completo, excelente para prevenir la podredumbre de raíces y mildius.",
+    "destacado": true,
+    "tag": "Fungicidas",
+    "imagen": ""
+  },
+  {
+    "id": 11,
+    "nombre": "T-rex",
+    "categoria": "fungicidas",
+    "descripcion": "Fungicida de alta eficacia para el control de manchas foliares y hongos fitopatógenos.",
+    "destacado": false,
+    "tag": "Fungicidas",
+    "imagen": ""
+  },
+  {
+    "id": 12,
+    "nombre": "Amistar ztra",
+    "categoria": "fungicidas",
+    "descripcion": "Fungicida con tecnología avanzada para una protección prolongada contra roya y oídio.",
+    "destacado": false,
+    "tag": "Fungicidas",
+    "imagen": ""
+  },
+  {
+    "id": 13,
+    "nombre": "Alto 100",
+    "categoria": "fungicidas",
+    "descripcion": "Fungicida sistémico altamente efectivo para detener el avance de enfermedades fúngicas severas.",
+    "destacado": false,
+    "tag": "Fungicidas",
+    "imagen": ""
+  },
+  {
+    "id": 14,
+    "nombre": "Cadete",
+    "categoria": "fungicidas",
+    "descripcion": "Solución fungicida preventiva y curativa que asegura la calidad sanitaria de los frutos.",
+    "destacado": false,
+    "tag": "Fungicidas",
+    "imagen": ""
+  },
+  {
+    "id": 15,
+    "nombre": "Niagara",
+    "categoria": "fungicidas",
+    "descripcion": "Fungicida diseñado para el control integral de enfermedades foliares en hortalizas y frutales.",
+    "destacado": false,
+    "tag": "Fungicidas",
+    "imagen": ""
+  },
+  {
+    "id": 16,
+    "nombre": "Bayfolan 11 8 6",
+    "categoria": "fertilizantes foliares",
+    "descripcion": "Nutriente foliar balanceado que estimula el vigor y el crecimiento verde de las plantas.",
+    "destacado": false,
+    "tag": "Fertilizantes foliares",
+    "imagen": ""
+  },
+  {
+    "id": 17,
+    "nombre": "Bayfolan activator",
+    "categoria": "fertilizantes foliares",
+    "descripcion": "Suplemento nutricional foliar que activa los procesos metabólicos y de defensa del cultivo.",
+    "destacado": true,
+    "tag": "Fertilizantes foliares",
+    "imagen": ""
+  },
+  {
+    "id": 18,
+    "nombre": "Foli zyme",
+    "categoria": "fertilizantes foliares",
+    "descripcion": "Complejo enzimático y nutricional foliar para mitigar el estrés climático y mejorar la floración.",
+    "destacado": false,
+    "tag": "Fertilizantes foliares",
+    "imagen": ""
+  },
+  {
+    "id": 19,
+    "nombre": "Powergizer",
+    "categoria": "fertilizantes foliares",
+    "descripcion": "Bioestimulante foliar de alta concentración para el llenado óptimo de frutos y granos.",
+    "destacado": false,
+    "tag": "Fertilizantes foliares",
+    "imagen": ""
+  },
+  {
+    "id": 20,
+    "nombre": "Medal",
+    "categoria": "coadyuvantes",
+    "descripcion": "Coadyuvante tensoactivo que optimiza la cobertura y penetración de las aplicaciones agrícolas.",
+    "destacado": false,
+    "tag": "Coadyuvantes",
+    "imagen": ""
+  },
+  {
+    "id": 21,
+    "nombre": "Cosmo-ind",
+    "categoria": "coadyuvantes",
+    "descripcion": "Aditivo regulador que mejora la compatibilidad de mezclas en el tanque de pulverización.",
+    "destacado": false,
+    "tag": "Coadyuvantes",
+    "imagen": ""
+  },
+  {
+    "id": 22,
+    "nombre": "Triple a",
+    "categoria": "coadyuvantes",
+    "descripcion": "Coadyuvante de acción múltiple: humectante, dispersante y adherente para agroquímicos.",
+    "destacado": false,
+    "tag": "Coadyuvantes",
+    "imagen": ""
+  },
+  {
+    "id": 23,
+    "nombre": "Ph",
+    "categoria": "coadyuvantes",
+    "descripcion": "Acidificante y corrector de pH del agua para evitar la degradación de los caldos fitosanitarios.",
+    "destacado": false,
+    "tag": "Coadyuvantes",
+    "imagen": ""
+  },
+  {
+    "id": 24,
+    "nombre": "Silicone",
+    "categoria": "coadyuvantes",
+    "descripcion": "Surfactante organosiliconado de súper esparcimiento que maximiza la absorción foliar.",
+    "destacado": false,
+    "tag": "Coadyuvantes",
+    "imagen": ""
+  },
+  {
+    "id": 25,
+    "nombre": "Fertilizantes granulado molimax 20 20 20",
+    "categoria": "fertilizantes",
+    "descripcion": "Nutrición edáfica 100% balanceada en nitrógeno, fósforo y potasio para un rendimiento óptimo.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 26,
+    "nombre": "Molimax frutales",
+    "categoria": "fertilizantes",
+    "descripcion": "Fórmula granular específica para cubrir las altas demandas de potasio y micronutrientes en frutales.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 27,
+    "nombre": "Molimax papa sierra",
+    "categoria": "fertilizantes",
+    "descripcion": "Mezcla granular optimizada con alto fósforo para el desarrollo radicular y tuberosidad en zonas altoandinas.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 28,
+    "nombre": "Fertimaster tropical",
+    "categoria": "fertilizantes",
+    "descripcion": "Fertilizante edáfico adaptado a las condiciones de suelos tropicales para café y cacao.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 29,
+    "nombre": "Yaramila hydran",
+    "categoria": "fertilizantes",
+    "descripcion": "Fertilizante complejo químico con nitrógeno, fósforo, potasio y azufre de alta disponibilidad.",
+    "destacado": true,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 30,
+    "nombre": "Yaramila complex",
+    "categoria": "fertilizantes",
+    "descripcion": "Nutrición granulada premium enriquecida con microelementos para cultivos de alto valor.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 31,
+    "nombre": "Yara vera amidas",
+    "categoria": "fertilizantes",
+    "descripcion": "Aporte eficiente de nitrógeno y azufre en un solo gránulo para potenciar el crecimiento.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
+  },
+  {
+    "id": 32,
+    "nombre": "Nitrodoble",
+    "categoria": "fertilizantes",
+    "descripcion": "Fertilizante nitrogenado de doble acción (nítrico y amoniacal) para una asimilación inmediata y duradera.",
+    "destacado": false,
+    "tag": "Fertilizantes",
+    "imagen": ""
   }
 ]

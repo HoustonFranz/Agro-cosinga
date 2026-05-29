@@ -67,7 +67,7 @@ function handleContactSubmit(e) {
   const text = encodeURIComponent(
     `Hola Agro Cosinga, soy ${nombre} (Tel: ${telefono}).\n\n${mensaje}`
   );
-  window.open(`https://wa.me/51999999999?text=${text}`, '_blank');
+  window.open(`https://wa.me/51921094973?text=${text}`, '_blank');
   form.reset();
   return false;
 }

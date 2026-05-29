@@ -7,13 +7,6 @@
 (function () {
   const currentPage = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
 
-  const navLinks = [
-    { href: 'index.html',     label: 'Inicio' },
-    { href: 'productos.html', label: 'Productos' },
-    { href: 'nosotros.html',  label: 'Nosotros' },
-    { href: 'contacto.html',  label: 'Contacto' }
-  ];
-
   const isActive = (href) => href === currentPage ? 'is-active' : '';
 
   const footerHTML = `
@@ -24,9 +17,8 @@
             <div class="footer__brand"><i class="fa-solid fa-leaf"></i> Agro Cosinga</div>
             <p>Distribución profesional de fertilizantes, insecticidas, fungicidas y abonos en Satipo y la selva central del Perú.</p>
             <div class="footer__social">
-              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://wa.me/51999999999" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://www.facebook.com/share/1GwCoLppv5/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://wa.me/51921094973" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
           </div>
 
@@ -35,8 +27,8 @@
             <h4>Contacto</h4>
             <ul>
               <li><i class="fa-solid fa-location-dot"></i> Satipo, Junín - Perú</li>
-              <li><i class="fa-brands fa-whatsapp"></i> +51 999 999 999</li>
-              <li><i class="fa-solid fa-envelope"></i> contacto@agrocosinga.com</li>
+              <li><i class="fa-brands fa-whatsapp"></i> +51 921 094 973</li>
+              <li><i class="fa-solid fa-envelope"></i> Agrocosingasoluciones@gmail.com</li>
             </ul>
           </div>
         </div>
@@ -48,16 +40,8 @@
   `;
 
   document.addEventListener('DOMContentLoaded', () => {
-    const navEl = document.getElementById('navbar-placeholder');
     const footEl = document.getElementById('footer-placeholder');
-    if (navEl) navEl.innerHTML = navbarHTML;
     if (footEl) footEl.innerHTML = footerHTML;
 
-    // Toggle menú mobile
-    const navbar = document.getElementById('mainNavbar');
-    const toggle = document.getElementById('navToggle');
-    if (toggle && navbar) {
-      toggle.addEventListener('click', () => navbar.classList.toggle('is-open'));
-    }
   });
 })();

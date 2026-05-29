@@ -5,7 +5,7 @@
    ========================================================= */
 
 (function () {
-  const WHATSAPP_NUMBER = '902345673';
+  const WHATSAPP_NUMBER = '921094973';
 
   async function loadProducts() {
     try {
